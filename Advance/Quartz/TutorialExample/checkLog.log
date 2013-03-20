@@ -1,0 +1,1165 @@
+11:30:19,950  INFO StdSchedulerFactory:1179 - Using default implementation for ThreadExecutor
+11:30:19,954  INFO SimpleThreadPool:270 - Job execution threads will use class loader of thread: main
+11:30:19,970  INFO SchedulerSignalerImpl:60 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:30:19,971  INFO QuartzScheduler:229 - Quartz Scheduler v.1.8.6 created.
+11:30:19,973  INFO RAMJobStore:139 - RAMJobStore initialized.
+11:30:19,978  INFO QuartzScheduler:255 - Scheduler meta-data: Quartz Scheduler (v1.8.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:30:19,979  INFO StdSchedulerFactory:1324 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+11:30:19,979  INFO StdSchedulerFactory:1328 - Quartz scheduler version: 1.8.6
+11:30:19,979  INFO QuartzScheduler:519 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+11:30:20,002 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:20,006 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:20,006  INFO HelloJob:23 - Hello world
+11:30:20,971 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+11:30:21,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:21,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:21,001  INFO HelloJob:23 - Hello world
+11:30:22,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:22,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:22,001  INFO HelloJob:23 - Hello world
+11:30:23,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:23,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:23,001  INFO HelloJob:23 - Hello world
+11:30:24,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:24,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:24,000  INFO HelloJob:23 - Hello world
+11:30:25,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:25,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:25,002  INFO HelloJob:23 - Hello world
+11:30:26,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:26,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:26,002  INFO HelloJob:23 - Hello world
+11:30:27,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:27,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:27,002  INFO HelloJob:23 - Hello world
+11:30:28,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:28,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:28,003  INFO HelloJob:23 - Hello world
+11:30:29,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:29,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:29,002  INFO HelloJob:23 - Hello world
+11:30:30,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:30,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:30,002  INFO HelloJob:23 - Hello world
+11:30:31,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:31,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:31,002  INFO HelloJob:23 - Hello world
+11:30:32,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:32,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:32,002  INFO HelloJob:23 - Hello world
+11:30:33,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:33,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:33,002  INFO HelloJob:23 - Hello world
+11:30:34,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:34,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:34,001  INFO HelloJob:23 - Hello world
+11:30:35,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:35,004 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:35,005  INFO HelloJob:23 - Hello world
+11:30:36,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:30:36,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:30:36,002  INFO HelloJob:23 - Hello world
+11:33:21,891  INFO StdSchedulerFactory:1179 - Using default implementation for ThreadExecutor
+11:33:21,894  INFO SimpleThreadPool:270 - Job execution threads will use class loader of thread: main
+11:33:21,911  INFO SchedulerSignalerImpl:60 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:33:21,912  INFO QuartzScheduler:229 - Quartz Scheduler v.1.8.6 created.
+11:33:21,914  INFO RAMJobStore:139 - RAMJobStore initialized.
+11:33:21,919  INFO QuartzScheduler:255 - Scheduler meta-data: Quartz Scheduler (v1.8.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:33:21,920  INFO StdSchedulerFactory:1324 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+11:33:21,920  INFO StdSchedulerFactory:1328 - Quartz scheduler version: 1.8.6
+11:33:21,920  INFO QuartzScheduler:519 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+11:33:22,009 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:22,023 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:22,023  INFO HelloJob:23 - Hello world
+11:33:22,912 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+11:33:23,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:23,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:23,001  INFO HelloJob:23 - Hello world
+11:33:24,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:24,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:24,001  INFO HelloJob:23 - Hello world
+11:33:25,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:25,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:25,001  INFO HelloJob:23 - Hello world
+11:33:26,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:26,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:26,001  INFO HelloJob:23 - Hello world
+11:33:27,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:27,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:27,002  INFO HelloJob:23 - Hello world
+11:33:28,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:28,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:28,002  INFO HelloJob:23 - Hello world
+11:33:29,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:29,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:29,001  INFO HelloJob:23 - Hello world
+11:33:30,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:30,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:30,001  INFO HelloJob:23 - Hello world
+11:33:31,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:31,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:31,001  INFO HelloJob:23 - Hello world
+11:33:32,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:32,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:32,001  INFO HelloJob:23 - Hello world
+11:33:33,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:33,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:33,001  INFO HelloJob:23 - Hello world
+11:33:34,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:34,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:34,001  INFO HelloJob:23 - Hello world
+11:33:35,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:35,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:35,002  INFO HelloJob:23 - Hello world
+11:33:36,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:36,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:36,002  INFO HelloJob:23 - Hello world
+11:33:37,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:37,006 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:37,006  INFO HelloJob:23 - Hello world
+11:33:38,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:38,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:38,001  INFO HelloJob:23 - Hello world
+11:33:39,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:39,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:39,002  INFO HelloJob:23 - Hello world
+11:33:40,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:40,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:40,001  INFO HelloJob:23 - Hello world
+11:33:41,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:41,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:41,001  INFO HelloJob:23 - Hello world
+11:33:42,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:42,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:42,002  INFO HelloJob:23 - Hello world
+11:33:43,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:43,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:43,000  INFO HelloJob:23 - Hello world
+11:33:44,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:44,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:44,001  INFO HelloJob:23 - Hello world
+11:33:45,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:45,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:45,002  INFO HelloJob:23 - Hello world
+11:33:46,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:46,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:46,000  INFO HelloJob:23 - Hello world
+11:33:47,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:47,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:47,001  INFO HelloJob:23 - Hello world
+11:33:48,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:48,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:48,001  INFO HelloJob:23 - Hello world
+11:33:49,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:49,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:49,001  INFO HelloJob:23 - Hello world
+11:33:50,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:50,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:50,001  INFO HelloJob:23 - Hello world
+11:33:51,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:51,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:51,002  INFO HelloJob:23 - Hello world
+11:33:52,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:52,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:52,002  INFO HelloJob:23 - Hello world
+11:33:53,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:53,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:53,002  INFO HelloJob:23 - Hello world
+11:33:54,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:54,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:54,001  INFO HelloJob:23 - Hello world
+11:33:55,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:55,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:55,000  INFO HelloJob:23 - Hello world
+11:33:56,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:56,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:56,001  INFO HelloJob:23 - Hello world
+11:33:57,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:57,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:57,001  INFO HelloJob:23 - Hello world
+11:33:58,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:58,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:58,001  INFO HelloJob:23 - Hello world
+11:33:59,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:33:59,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:33:59,001  INFO HelloJob:23 - Hello world
+11:34:00,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:00,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:00,001  INFO HelloJob:23 - Hello world
+11:34:01,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:01,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:01,001  INFO HelloJob:23 - Hello world
+11:34:02,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:02,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:02,001  INFO HelloJob:23 - Hello world
+11:34:03,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:03,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:03,002  INFO HelloJob:23 - Hello world
+11:34:04,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:04,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:04,001  INFO HelloJob:23 - Hello world
+11:34:05,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:05,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:05,001  INFO HelloJob:23 - Hello world
+11:34:06,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:06,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:06,001  INFO HelloJob:23 - Hello world
+11:34:07,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:07,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:07,001  INFO HelloJob:23 - Hello world
+11:34:08,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:08,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:08,001  INFO HelloJob:23 - Hello world
+11:34:09,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:09,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:09,001  INFO HelloJob:23 - Hello world
+11:34:10,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:10,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:10,001  INFO HelloJob:23 - Hello world
+11:34:11,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:11,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:11,001  INFO HelloJob:23 - Hello world
+11:34:12,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:12,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:12,001  INFO HelloJob:23 - Hello world
+11:34:13,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:13,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:13,001  INFO HelloJob:23 - Hello world
+11:34:14,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:14,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:14,001  INFO HelloJob:23 - Hello world
+11:34:15,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:15,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:15,001  INFO HelloJob:23 - Hello world
+11:34:16,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:16,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:16,001  INFO HelloJob:23 - Hello world
+11:34:17,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:17,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:17,001  INFO HelloJob:23 - Hello world
+11:34:18,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:18,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:18,001  INFO HelloJob:23 - Hello world
+11:34:19,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:19,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:19,001  INFO HelloJob:23 - Hello world
+11:34:20,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:20,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:20,002  INFO HelloJob:23 - Hello world
+11:34:21,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:21,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:21,001  INFO HelloJob:23 - Hello world
+11:34:22,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:22,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:22,001  INFO HelloJob:23 - Hello world
+11:34:23,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:23,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:23,001  INFO HelloJob:23 - Hello world
+11:34:24,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:24,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:24,001  INFO HelloJob:23 - Hello world
+11:34:25,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:25,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:25,001  INFO HelloJob:23 - Hello world
+11:34:26,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:26,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:26,001  INFO HelloJob:23 - Hello world
+11:34:27,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:27,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:27,001  INFO HelloJob:23 - Hello world
+11:34:28,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:28,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:28,001  INFO HelloJob:23 - Hello world
+11:34:29,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:29,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:29,001  INFO HelloJob:23 - Hello world
+11:34:30,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:30,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:30,001  INFO HelloJob:23 - Hello world
+11:34:31,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:31,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:31,001  INFO HelloJob:23 - Hello world
+11:34:32,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:32,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:32,001  INFO HelloJob:23 - Hello world
+11:34:33,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:33,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:33,001  INFO HelloJob:23 - Hello world
+11:34:34,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:34,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:34,001  INFO HelloJob:23 - Hello world
+11:34:35,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:35,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:35,001  INFO HelloJob:23 - Hello world
+11:34:36,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:36,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:36,001  INFO HelloJob:23 - Hello world
+11:34:37,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:37,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:37,001  INFO HelloJob:23 - Hello world
+11:34:38,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:38,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:38,002  INFO HelloJob:23 - Hello world
+11:34:39,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:39,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:39,001  INFO HelloJob:23 - Hello world
+11:34:40,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:40,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:40,001  INFO HelloJob:23 - Hello world
+11:34:41,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:41,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:41,001  INFO HelloJob:23 - Hello world
+11:34:42,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:42,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:42,001  INFO HelloJob:23 - Hello world
+11:34:43,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:43,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:43,002  INFO HelloJob:23 - Hello world
+11:34:44,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:44,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:44,002  INFO HelloJob:23 - Hello world
+11:34:45,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:45,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:45,001  INFO HelloJob:23 - Hello world
+11:34:46,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:46,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:46,001  INFO HelloJob:23 - Hello world
+11:34:47,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:47,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:47,001  INFO HelloJob:23 - Hello world
+11:34:48,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:48,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:48,001  INFO HelloJob:23 - Hello world
+11:34:49,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:49,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:49,001  INFO HelloJob:23 - Hello world
+11:34:50,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:50,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:50,001  INFO HelloJob:23 - Hello world
+11:34:51,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:51,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:51,001  INFO HelloJob:23 - Hello world
+11:34:52,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:52,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:52,001  INFO HelloJob:23 - Hello world
+11:34:53,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:53,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:53,001  INFO HelloJob:23 - Hello world
+11:34:54,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:54,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:54,001  INFO HelloJob:23 - Hello world
+11:34:55,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:55,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:55,002  INFO HelloJob:23 - Hello world
+11:34:56,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:56,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:56,000  INFO HelloJob:23 - Hello world
+11:34:57,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:57,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:57,001  INFO HelloJob:23 - Hello world
+11:34:58,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:58,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:58,002  INFO HelloJob:23 - Hello world
+11:34:59,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:34:59,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:34:59,001  INFO HelloJob:23 - Hello world
+11:35:00,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:00,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:00,001  INFO HelloJob:23 - Hello world
+11:35:01,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:01,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:01,001  INFO HelloJob:23 - Hello world
+11:35:02,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:02,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:02,001  INFO HelloJob:23 - Hello world
+11:35:03,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:03,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:03,001  INFO HelloJob:23 - Hello world
+11:35:04,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:04,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:04,001  INFO HelloJob:23 - Hello world
+11:35:05,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:05,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:05,001  INFO HelloJob:23 - Hello world
+11:35:06,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:06,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:06,002  INFO HelloJob:23 - Hello world
+11:35:07,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:07,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:07,001  INFO HelloJob:23 - Hello world
+11:35:08,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:08,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:08,008  INFO HelloJob:23 - Hello world
+11:35:09,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:09,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:09,001  INFO HelloJob:23 - Hello world
+11:35:10,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:10,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:10,001  INFO HelloJob:23 - Hello world
+11:35:11,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:11,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:11,001  INFO HelloJob:23 - Hello world
+11:35:12,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:12,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:12,001  INFO HelloJob:23 - Hello world
+11:35:13,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:13,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:13,002  INFO HelloJob:23 - Hello world
+11:35:14,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:14,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:14,001  INFO HelloJob:23 - Hello world
+11:35:15,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:15,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:15,001  INFO HelloJob:23 - Hello world
+11:35:16,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:16,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:16,002  INFO HelloJob:23 - Hello world
+11:35:17,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:17,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:17,002  INFO HelloJob:23 - Hello world
+11:35:18,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:18,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:18,001  INFO HelloJob:23 - Hello world
+11:35:19,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:19,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:19,001  INFO HelloJob:23 - Hello world
+11:35:20,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:20,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:20,001  INFO HelloJob:23 - Hello world
+11:35:21,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:21,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:21,001  INFO HelloJob:23 - Hello world
+11:35:22,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:22,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:22,001  INFO HelloJob:23 - Hello world
+11:35:23,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:23,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:23,001  INFO HelloJob:23 - Hello world
+11:35:24,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:24,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:24,001  INFO HelloJob:23 - Hello world
+11:35:25,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:25,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:25,001  INFO HelloJob:23 - Hello world
+11:35:26,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:26,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:26,001  INFO HelloJob:23 - Hello world
+11:35:27,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:27,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:27,001  INFO HelloJob:23 - Hello world
+11:35:28,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:28,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:28,001  INFO HelloJob:23 - Hello world
+11:35:29,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:29,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:29,001  INFO HelloJob:23 - Hello world
+11:35:30,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:30,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:30,002  INFO HelloJob:23 - Hello world
+11:35:31,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:31,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:31,001  INFO HelloJob:23 - Hello world
+11:35:32,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:32,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:32,001  INFO HelloJob:23 - Hello world
+11:35:33,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:33,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:33,001  INFO HelloJob:23 - Hello world
+11:35:34,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:34,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:34,001  INFO HelloJob:23 - Hello world
+11:35:35,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:35,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:35,001  INFO HelloJob:23 - Hello world
+11:35:36,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:36,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:36,001  INFO HelloJob:23 - Hello world
+11:35:37,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:37,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:37,001  INFO HelloJob:23 - Hello world
+11:35:38,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:38,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:38,001  INFO HelloJob:23 - Hello world
+11:35:39,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:39,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:39,001  INFO HelloJob:23 - Hello world
+11:35:40,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:40,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:40,001  INFO HelloJob:23 - Hello world
+11:35:41,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:41,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:41,001  INFO HelloJob:23 - Hello world
+11:35:42,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:42,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:42,001  INFO HelloJob:23 - Hello world
+11:35:43,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:43,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:43,001  INFO HelloJob:23 - Hello world
+11:35:44,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:44,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:44,001  INFO HelloJob:23 - Hello world
+11:35:45,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:45,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:45,001  INFO HelloJob:23 - Hello world
+11:35:46,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:46,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:46,001  INFO HelloJob:23 - Hello world
+11:35:47,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:47,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:47,001  INFO HelloJob:23 - Hello world
+11:35:48,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:48,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:48,002  INFO HelloJob:23 - Hello world
+11:35:49,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:49,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:49,001  INFO HelloJob:23 - Hello world
+11:35:50,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:50,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:50,001  INFO HelloJob:23 - Hello world
+11:35:51,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:51,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:51,001  INFO HelloJob:23 - Hello world
+11:35:52,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:52,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:52,001  INFO HelloJob:23 - Hello world
+11:35:53,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:53,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:53,001  INFO HelloJob:23 - Hello world
+11:35:54,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:54,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:54,001  INFO HelloJob:23 - Hello world
+11:35:55,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:55,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:55,001  INFO HelloJob:23 - Hello world
+11:35:56,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:56,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:56,001  INFO HelloJob:23 - Hello world
+11:35:57,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:57,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:57,001  INFO HelloJob:23 - Hello world
+11:35:58,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:58,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:58,001  INFO HelloJob:23 - Hello world
+11:35:59,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:35:59,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:35:59,001  INFO HelloJob:23 - Hello world
+11:36:00,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+11:36:00,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+11:36:00,002  INFO HelloJob:23 - Hello world
+13:22:02,679  INFO StdSchedulerFactory:1179 - Using default implementation for ThreadExecutor
+13:22:02,682  INFO SimpleThreadPool:270 - Job execution threads will use class loader of thread: main
+13:22:02,700  INFO SchedulerSignalerImpl:60 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+13:22:02,702  INFO QuartzScheduler:229 - Quartz Scheduler v.1.8.6 created.
+13:22:02,704  INFO RAMJobStore:139 - RAMJobStore initialized.
+13:22:02,710  INFO QuartzScheduler:255 - Scheduler meta-data: Quartz Scheduler (v1.8.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+13:22:02,711  INFO StdSchedulerFactory:1324 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+13:22:02,711  INFO StdSchedulerFactory:1328 - Quartz scheduler version: 1.8.6
+13:22:02,711  INFO QuartzScheduler:519 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+13:22:03,009 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:03,023 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:03,029  INFO HelloJob:23 - Hello World
+13:22:03,702 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+13:22:04,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:04,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:04,002  INFO HelloJob:23 - Hello World
+13:22:05,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:05,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:05,001  INFO HelloJob:23 - Hello World
+13:22:06,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:06,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:06,001  INFO HelloJob:23 - Hello World
+13:22:07,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:07,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:07,002  INFO HelloJob:23 - Hello World
+13:22:24,697  INFO StdSchedulerFactory:1179 - Using default implementation for ThreadExecutor
+13:22:24,700  INFO SimpleThreadPool:270 - Job execution threads will use class loader of thread: main
+13:22:24,716  INFO SchedulerSignalerImpl:60 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+13:22:24,717  INFO QuartzScheduler:229 - Quartz Scheduler v.1.8.6 created.
+13:22:24,720  INFO RAMJobStore:139 - RAMJobStore initialized.
+13:22:24,726  INFO QuartzScheduler:255 - Scheduler meta-data: Quartz Scheduler (v1.8.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+13:22:24,726  INFO StdSchedulerFactory:1324 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+13:22:24,726  INFO StdSchedulerFactory:1328 - Quartz scheduler version: 1.8.6
+13:22:24,726  INFO QuartzScheduler:519 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+13:22:25,009 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:25,020 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:25,024  INFO HelloJob:23 - Hello %s
+13:22:25,717 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+13:22:26,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:26,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:26,003  INFO HelloJob:23 - Hello %s
+13:22:27,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:27,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:27,003  INFO HelloJob:23 - Hello %s
+13:22:28,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:28,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:28,001  INFO HelloJob:23 - Hello %s
+13:22:29,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:29,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:29,001  INFO HelloJob:23 - Hello %s
+13:22:30,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:30,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:30,001  INFO HelloJob:23 - Hello %s
+13:22:31,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.HelloJob
+13:22:31,000 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:22:31,000  INFO HelloJob:23 - Hello %s
+13:28:26,154  INFO StdSchedulerFactory:1179 - Using default implementation for ThreadExecutor
+13:28:26,157  INFO SimpleThreadPool:270 - Job execution threads will use class loader of thread: main
+13:28:26,174  INFO SchedulerSignalerImpl:60 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+13:28:26,176  INFO QuartzScheduler:229 - Quartz Scheduler v.1.8.6 created.
+13:28:26,177  INFO RAMJobStore:139 - RAMJobStore initialized.
+13:28:26,183  INFO QuartzScheduler:255 - Scheduler meta-data: Quartz Scheduler (v1.8.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+13:28:26,184  INFO StdSchedulerFactory:1324 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+13:28:26,184  INFO StdSchedulerFactory:1328 - Quartz scheduler version: 1.8.6
+13:28:26,184  INFO QuartzScheduler:519 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+13:28:27,009 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:27,022 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:27,024 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:27,027 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:27,175 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+13:28:28,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:28,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:28,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:28,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:29,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:29,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:29,001 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:29,002 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:30,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:30,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:30,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:30,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:31,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:31,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:31,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:31,004 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:32,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:32,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:32,003 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:32,005 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:33,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:33,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:33,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:33,004 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:34,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:34,003 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:34,004 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:34,006 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:35,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:35,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:35,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:35,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:36,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:36,005 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:36,007 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:36,007 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:37,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:37,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:37,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:37,004 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:38,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:38,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:38,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:38,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:39,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:39,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:39,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:39,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:40,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:40,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:40,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:40,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:41,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:41,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:41,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:41,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:42,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:42,005 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:42,006 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:42,007 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:43,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:43,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:43,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:43,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:28:44,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:28:44,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:28:44,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:28:44,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.ClassCastException: Identified object is not a Float.]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.ClassCastException: Identified object is not a Float.
+	at org.quartz.utils.StringKeyDirtyFlagMap.getFloat(StringKeyDirtyFlagMap.java:293)
+	at org.quartz.example.DumbJob.execute(DumbJob.java:31)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:29:23,217  INFO StdSchedulerFactory:1179 - Using default implementation for ThreadExecutor
+13:29:23,222  INFO SimpleThreadPool:270 - Job execution threads will use class loader of thread: main
+13:29:23,239  INFO SchedulerSignalerImpl:60 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+13:29:23,240  INFO QuartzScheduler:229 - Quartz Scheduler v.1.8.6 created.
+13:29:23,242  INFO RAMJobStore:139 - RAMJobStore initialized.
+13:29:23,248  INFO QuartzScheduler:255 - Scheduler meta-data: Quartz Scheduler (v1.8.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+13:29:23,249  INFO StdSchedulerFactory:1324 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+13:29:23,249  INFO StdSchedulerFactory:1328 - Quartz scheduler version: 1.8.6
+13:29:23,249  INFO QuartzScheduler:519 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+13:29:24,009 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:29:24,022 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:29:24,024 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:29:24,026 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.NullPointerException]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:29:24,240 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+13:29:25,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:29:25,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:29:25,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:29:25,004 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.NullPointerException]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:29:26,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:29:26,003 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:29:26,003 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:29:26,005 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.NullPointerException]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:29:27,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:29:27,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:29:27,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:29:27,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.NullPointerException]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:29:28,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:29:28,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:29:28,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:29:28,005 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.NullPointerException]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:29:29,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:29:29,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:29:29,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:29:29,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.NullPointerException]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:29:30,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:29:30,003 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:29:30,005 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:29:30,007 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.NullPointerException]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:29:31,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:29:31,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:29:31,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:29:31,004 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.NullPointerException]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:29:32,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:29:32,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:29:32,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:29:32,004 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.NullPointerException]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:29:33,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:29:33,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:29:33,002 ERROR JobRunShell:232 - Job DEFAULT.myJob threw an unhandled Exception: 
+java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+13:29:33,003 ERROR ErrorLogger:2358 - Job (DEFAULT.myJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: java.lang.NullPointerException]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:234)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+Caused by: java.lang.NullPointerException
+	at org.quartz.example.DumbJob.execute(DumbJob.java:33)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:223)
+	... 1 more
+13:31:43,705  INFO StdSchedulerFactory:1179 - Using default implementation for ThreadExecutor
+13:31:43,708  INFO SimpleThreadPool:270 - Job execution threads will use class loader of thread: main
+13:31:43,726  INFO SchedulerSignalerImpl:60 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+13:31:43,728  INFO QuartzScheduler:229 - Quartz Scheduler v.1.8.6 created.
+13:31:43,729  INFO RAMJobStore:139 - RAMJobStore initialized.
+13:31:43,736  INFO QuartzScheduler:255 - Scheduler meta-data: Quartz Scheduler (v1.8.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+13:31:43,736  INFO StdSchedulerFactory:1324 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+13:31:43,736  INFO StdSchedulerFactory:1328 - Quartz scheduler version: 1.8.6
+13:31:43,736  INFO QuartzScheduler:519 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+13:31:44,009 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:44,020 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:44,728 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+13:31:45,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:45,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:46,001 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:46,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:47,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:47,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:48,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:48,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:49,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:49,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:50,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:50,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:51,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:51,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:52,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:52,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:53,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:53,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:54,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:54,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:55,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:55,002 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
+13:31:56,000 DEBUG SimpleJobFactory:50 - Producing instance of Job 'DEFAULT.myJob', class=org.quartz.example.DumbJob
+13:31:56,001 DEBUG JobRunShell:222 - Calling execute on job DEFAULT.myJob
