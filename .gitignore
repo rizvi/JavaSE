@@ -161,3 +161,6 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+/Advance/Collections/BulkOperation/target/
+/Advance/Collections/SpecialImpl/nbproject/private/
+/Advance/Collections/SimpleChat/nbproject/private/
